@@ -68,6 +68,7 @@ endif
 set mouse=a " mouse and scroll
 highlight VertSplit ctermbg=NONE guibg=NONE
 set fillchars+=vert:│
+set path+=** " recursive search
 
 set t_Co=256
 colorscheme ron
